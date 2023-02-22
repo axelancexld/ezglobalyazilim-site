@@ -1,0 +1,257 @@
+
+@media screen and (min-width: 768px) {
+  /* Stream section */
+  .st-tabs {
+    padding-left: 0;
+    padding-right: 0; }
+  /* Post page */
+  .full-col {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (min-width: 991px) {
+  header .main-menu .menu .sub-menu {
+    box-shadow: 3.5px 12px 30px rgba(0, 0, 0, 0.57); } }
+
+@media screen and (max-width: 1320px) {
+  /* Basic Styles */
+  .slick-arrow {
+    display: none !important; } }
+
+@media screen and (max-width: 1300px) {
+  /* Game section */
+  .tm-tabs .tab-content .image-bl {
+    right: 15px; } }
+
+@media screen and (max-width: 1200px) {
+  /* Header Styles */
+  .header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px; }
+  /* Game section */
+  .tm-tabs .tab-content {
+    margin-left: 15px;
+    margin-right: 15px; }
+    .tm-tabs .tab-content .image-bl {
+      position: static;
+      -webkit-transform: none;
+              transform: none;
+      margin-bottom: 60px;
+      text-align: center; }
+    .tm-tabs .tab-content .tab-img {
+      padding-right: 15px; }
+    .tm-tabs .tab-content .tab-info {
+      padding: 90px 100px; }
+  /* Blog section */
+  .blog-section .bg-wrapper:before {
+    top: -935px; } }
+
+@media screen and (max-width: 1010px) {
+  /* Blog section */
+  .blog-section .bg-wrapper {
+    margin-top: 30px; }
+  /* Blog page */
+  .blog-content .vertical-item .item-left-img img {
+    border-radius: 10px 10px 0 0; }
+  /* Basic Styles */
+  section.ptb150 {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  /* Footer section */
+  .footer [class*='col-'] {
+    margin-bottom: 30px;
+    text-align: center; }
+  /* FAQ page */
+  .faq-container .column {
+    border: none; }
+  /* Stream section */
+  .st-tabs .nav-tabs > li a {
+    padding: 20px; }
+  /* Testimonial section */
+  .testimonial-slider {
+    margin-top: 90px; }
+    .testimonial-slider .slick-dots {
+        bottom: -50px; }
+        
+  /* Basic Styles */
+  .item .item-wrap {
+    margin-bottom: 30px; }
+  .item:last-child .item-wrap {
+    margin-bottom: 0; }
+  /* Main Slider Styles */
+  .n2-ss-control-bullet {
+    left: 30px !important; }
+  .main-slider .sl-social {
+    right: 30px; }
+  /* Header Styles */
+  .header-wrapper {
+    padding-left: 15px;
+    padding-right: 15px; }
+  header .main-menu .toggle_menu {
+    display: inline-block; }
+    header .main-menu .toggle_menu.open {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 10;
+      background: #1e1d32; }
+      header .main-menu .toggle_menu.open:before {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        background: #fff;
+        transition: 0.3s ease-in-out; }
+      header .main-menu .toggle_menu.open span {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        transition: 0.3s ease-in-out;
+        background: #fff; }
+        header .main-menu .toggle_menu.open span:after {
+          opacity: 0; }
+        header .main-menu .toggle_menu.open span:before {
+          opacity: 0; }
+  header .main-menu .menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    opacity: 0;
+    visibility: hidden; }
+    header .main-menu .menu li {
+      margin: 0 20px; }
+      header .main-menu .menu li.menu-item-has-children:after {
+        content: '\f107';
+        font: normal normal normal 14px/1 FontAwesome;
+        position: absolute;
+        top: 7px;
+        right: 0;
+        display: inline-block;
+        color: #fff; }
+      header .main-menu .menu li .sub-menu {
+        display: none;
+        background-color: transparent;
+        padding: 10px 0; }
+        header .main-menu .menu li .sub-menu li {
+          padding: 0 15px;
+          margin: 0; }
+          header .main-menu .menu li .sub-menu li a {
+            padding: 5px 0;
+            border: none; }
+          header .main-menu .menu li .sub-menu li .sub-menu {
+            left: 0;
+            -webkit-transform: none;
+                    transform: none; }
+      header .main-menu .menu li.menu-item-has-children.open-list > .sub-menu {
+        display: block;
+        position: relative;
+        top: 0;
+        opacity: 1;
+        visibility: visible; }
+  header .main-menu .toggle_menu:before,
+  header .main-menu .toggle_menu span {
+    left: 15px;
+    top: 50%; }
+  .vm-sm {
+    vertical-align: middle;
+    text-align: right; } }
+
+@media screen and (max-width: 767px) {
+  /* Post page */
+  .post-quote blockquote:before {
+    display: none; }
+  /* Blog page */
+  .blog-content .sidebar {
+    padding-left: 15px;
+    margin-top: 60px; }
+  /* Basic Styles */
+  .container {
+    max-width: 500px; }
+  .xs-text-left {
+    text-align: left; }
+  .xs-offset-table {
+    display: block; }
+  .alignright,
+  .alignleft {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  /* Blog page */
+  .blog-content .vertical-item .item-left-img {
+    border-radius: 10px 10px 0 0; }
+  /* Bootstrap Tabs Styles */
+  .default-tabs .nav-tabs li a {
+    font-size: 10px;
+    padding: 10px; }
+  /* 404 page */
+  .page-404 .footer-line .footer-404 [class*="col-"] {
+    margin-bottom: 30px;
+    text-align: center; }
+  /* Footer section */
+  .footer .footer-menu > li {
+    display: block !important;
+    margin: 0 !important; }
+  /* Stream section */
+  .st-tabs .nav-tabs > li a .tab-title {
+    font-size: 12px; }
+  .st-tabs .tab-content .video-bl .video-bottom .video-title {
+    font-size: 16px; }
+  /* Main Slider Styles */
+  .n2-ss-control-bullet {
+    left: 10px !important; }
+  .main-slider .sl-social {
+    right: 10px; }
+  /* Game section */
+  .tm-tabs .tab-content .tab-info {
+    padding: 60px; }
+  .tm-tabs .tab-content .image-bl .game-full-img {
+    height: auto; } }
+
+@media screen and (max-width: 560px) {
+  /* Stream section */
+  .st-tabs .competition .item-g {
+    text-align: center; }
+    .st-tabs .competition .item-g .img-com {
+      display: block; }
+    .st-tabs .competition .item-g .info-bl {
+      margin-left: 0;
+      margin-top: 10px; } }
+
+@media screen and (max-width: 480px) {
+  /* Blog page */
+  .blog-content .vertical-item.format-quote blockquote .text-container {
+    padding-left: 15px;
+    padding-right: 15px; }
+  /* Gallery masonry page */
+  .gallery .masonry-tpl .btn-container {
+    display: none; }
+  /* Basic styles */
+  .title-bl .subtitle {
+    font-size: 60px; }
+  /* Game section */
+  .tm-tabs .g-bottom > div {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px; }
+    .tm-tabs .g-bottom > div:first-child {
+      margin-bottom: 25px; }
+  .tm-tabs .tab-head > div {
+    display: block;
+    text-align: left; }
+  /* Testimonials page */
+  .testimonials-bl .slide-item {
+    /*padding: 80px 30px 30px 30px; } }*/
+    padding: 80px 30px 30px 100px; } }
+
+
+@media screen and (max-width: 400px) {
+  /* Header styles */
+  header .right-bl .search-content input {
+    width: auto;
+    min-width: 280px; }
+  /* Main Slider Styles */
+  .n2-ss-control-bullet {
+    display: none !important; }
+  .main-slider .sl-social {
+    display: none; }
+  /* Post page */
+  .post-commet-bl .reply {
+    float: none; } }
